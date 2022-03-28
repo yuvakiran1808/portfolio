@@ -31,28 +31,16 @@ img{
   }
   
   #home {
-      /* background: radial-gradient(#afffff,#0d1213,#ff30ff,#ffc30f) ;
-      background-size: 400% 400%;
-      animation: gradient 15s ease infinite;
-      overflow: none; */
-      /* background-color: black; */
+      
       height: 100vh;
-      background: url(background.jpg) center center fixed;
+      background: url(background.jpg)  center center fixed;
       background-size: cover;
-      /* background-color: #a3492b; */
+     
+      flex-wrap: wrap;
+      
   }
   
-  /* @keyframes gradient {
-      0% {
-          background-position: 0% 50%;
-      }
-      50% {
-          background-position: 100% 50%;
-      }
-      100% {
-          background-position: 0% 50%;
-      }
-  } */
+  
   .textlg{
       font-family: Arial, Helvetica, sans-serif;
       color: #a3492b;
@@ -66,18 +54,17 @@ img{
   #about{
       height: 100vh;
   }
-  button{
-   position: absolute;
+ 
   
-  }
-  .navbar-toggler{
-      /* display: grid !important; */
-      visibility: visible;
-  }
-  .navbar-toggle{
-    /* display: grid !important; */
-    visibility: visible;
-}
+
 .padded{
-    margin-top: 70px;
+    margin-top: 20px;
+}
+@media screen and (max-width: 350px){
+    .rowheight{
+        height: 70px; 
+    }
+    body .container-fluid{
+        width: 100%;
+    }
 }
