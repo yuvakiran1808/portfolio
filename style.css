@@ -68,9 +68,9 @@ a{
     .rowheight{
         height: 70px; 
     }
-    body .container-fluid{
+    /* body .container-fluid{
         width: 100%;
-    }
+    } */
 }
 
 .timeline {
@@ -196,5 +196,19 @@ a{
 .inner:hover img{
     transform: scale(1.2);
 }
-
-  
+#contact{
+    height: 100vh;
+}
+#topbtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius:50%;
+    background-color: #727cf5;
+  }

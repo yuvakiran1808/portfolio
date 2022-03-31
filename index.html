@@ -29,7 +29,8 @@
             <div class="col-md-3   col-auto "><a href="#contact" class="text-white">Contact</a></div>
         </div>
     </div>
-
+    
+    <a class="btn" onclick="topFunction()" id="topbtn"title="Go to top"><i class="fa fa-arrow-up text-white "></i></a>
     <div class="container-fluid " id="home">
         <div class="row">
             <div class="col padded"><img src="image.jpeg" alt="" class="img-fluid  mx-auto d-block zoom "></div>
@@ -43,7 +44,7 @@
         </div>
 
         <div
-            class="container mt-4 p-2 bg-secondary text-dark rounded d-flex flex-wrap justify-content-between align-items-center">
+            class="container mt-4 p-2 bg-dark text-white rounded d-flex flex-wrap justify-content-between align-items-center">
             <div class="row">
                 <div class="col-0"><i class="fa fa-envelope rounded text-warning" style="font-size:30px"></i></div>
                 <div class="col h5">pyuvasaikiran@gmail.com</div>
@@ -230,12 +231,99 @@
                     </div>
                 </div>
             </div>
+            <div id="contact">
+                <h1 class="text-center text-primary">Contact Form</h1>
+                <form action="mailto:pyuvasaikiran@gmail.com" method="post" enctype="text/plain">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" class="btn btn-primary" value="Send Message">
+                </form>
 
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-            <!-- font awesome -->
-            <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
-            <script src="script.js"></script>
+            </div>
+        </div>
+
+       <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container-fluid my-5">
+
+    <footer class="bg-light text-center text-white">
+    <!-- Grid container -->
+    <div class="p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="https://www.facebook.com/yaswanth.yuva.16"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #55acee;"
+          href="https://twitter.com/YuvaSaiKiran"
+          role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        
+        
+  
+        <!-- Instagram -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="https://www.instagram.com/yuvakiran08/"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #0082ca;"
+          href="https://www.linkedin.com/in/yuva-sai-kiran-171218218/"
+          role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <!-- Github -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #333333;"
+          href="https://github.com/yuvakiran1808"
+          role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    
+  
+    
+  </footer>
+ 
+
+  </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
