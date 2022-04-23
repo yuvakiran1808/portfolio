@@ -115,38 +115,45 @@
                                 </ul>
                                 <h3 class="card-title text-center mt-5">My Skills</h3>
                                 <div class="container-fluid">
-                                    <h5>JavaScript 50%</h5>
+                                    <h5>ReactJS 50%</h5>
                                     <div class="progress">
                                         <div class="progress-bar  bg-warning " role="progressbar" aria-valuenow="50"
                                             aria-valuemin="0" aria-valuemax="100" style="width:50%">
 
                                         </div>
                                     </div>
-                                    <h5>HTML 80%</h5>
+                                    <h5>JavaScript 60%</h5>
                                     <div class="progress">
-                                        <div class="progress-bar  bg-warning " role="progressbar" aria-valuenow="70"
-                                            aria-valuemin="0" aria-valuemax="100" style="width:80%">
-
-                                        </div>
-                                    </div>
-                                    <h5>CSS 60%</h5>
-                                    <div class="progress">
-                                        <div class="progress-bar  bg-warning " role="progressbar" aria-valuenow="60"
+                                        <div class="progress-bar  bg-warning " role="progressbar" aria-valuenow="50"
                                             aria-valuemin="0" aria-valuemax="100" style="width:60%">
 
                                         </div>
                                     </div>
-                                    <h5>Bootstrap 70%</h5>
+                                    <h5>HTML 90%</h5>
                                     <div class="progress">
                                         <div class="progress-bar  bg-warning " role="progressbar" aria-valuenow="70"
+                                            aria-valuemin="0" aria-valuemax="100" style="width:90%">
+
+                                        </div>
+                                    </div>
+                                    <h5>CSS 70%</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar  bg-warning " role="progressbar" aria-valuenow="60"
                                             aria-valuemin="0" aria-valuemax="100" style="width:70%">
 
                                         </div>
                                     </div>
-                                    <h5>JAVA 50%</h5>
+                                    <h5>Bootstrap 90%</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar  bg-warning " role="progressbar" aria-valuenow="70"
+                                            aria-valuemin="0" aria-valuemax="100" style="width:90%">
+
+                                        </div>
+                                    </div>
+                                    <h5>JAVA 70%</h5>
                                     <div class="progress">
                                         <div class="progress-bar  bg-warning " role="progressbar" aria-valuenow="50"
-                                            aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                            aria-valuemin="0" aria-valuemax="100" style="width:70%">
 
                                         </div>
                                     </div>
@@ -233,19 +240,19 @@
             </div>
             <div id="contact">
                 <h1 class="text-center text-primary">Contact Form</h1>
-                <form action="mailto:pyuvasaikiran@gmail.com" method="post" enctype="text/plain">
+                <form action="contact.php" method="post" enctype="text/plain">
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter name">
+                        <label for="exampleFormControlInput1" class="form-label">Name*</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter name" required>
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <label for="exampleFormControlInput1" class="form-label">Email address*</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="name@example.com">
+                            placeholder="name@gmail.com" required>
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <label for="exampleFormControlTextarea1" class="form-label">Message*</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" required></textarea>
                     </div>
                     <div>
                         <input type="submit" class="btn btn-primary" value="Send Message">
@@ -318,7 +325,6 @@
  
 
   </div>
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <!-- font awesome -->
