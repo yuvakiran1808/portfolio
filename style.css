@@ -213,5 +213,8 @@ a{
     background-color: #727cf5;
   }
 
-  
+  .footer-position{
+      margin-top: 10rem;
+      margin-bottom: 0;
+  }
 
