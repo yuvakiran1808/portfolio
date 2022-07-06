@@ -46,3 +46,18 @@ function topFunction() {
 //   }
 //   });
 //   });
+
+
+//text animation
+var typed = new Typed(".animate", {
+  strings: [
+    "HEY THERE! I'M YUVASAIKIRAN",
+  ],
+  typeSpeed: 50,
+  backDelay: 5000,
+  backSpeed: 50,
+  loop: true,
+  cursorChar: '_',
+    // shuffle: true,
+    // smartBackspace: false,
+});

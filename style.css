@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .rowheight{
     height: 50px; 
 }
@@ -25,7 +30,7 @@ a{
 .zoom {
     /* padding: 50px; */
     background-color: rgb(28, 183, 204);
-    transition: transform 2s; /* Animation */
+    transition: transform 2s ; /* Animation */
 
   }
 
