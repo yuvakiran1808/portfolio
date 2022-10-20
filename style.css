@@ -125,6 +125,9 @@ a{
     .timeline .event {
         padding-top: 30px;
     }
+    .animate{
+        font-size: 22px;
+    }
 }
 
 .timeline .event:last-of-type {
@@ -224,3 +227,19 @@ a{
       margin-bottom: 0;
   }
 
+  .animate{
+    animation: colorchange 6s  ease-in infinite;
+  }
+
+@keyframes colorchange {
+    0%{
+        color: green;
+    }
+    50%{
+        color: orange;
+    }
+    100%{
+        color: white;
+    }
+    
+}
